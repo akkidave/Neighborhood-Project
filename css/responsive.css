@@ -1,0 +1,53 @@
+@media screen and (max-width: 650px) {
+    #search-nav {
+        display: none;
+    }
+
+    #wiki-links h3 {
+        display: none;
+    }
+
+    #wiki-links li {
+        align-content: center;
+    }
+
+    #list-button {
+        display: block;
+        font-size: 15px;
+    }
+
+    #history-list,
+    #non-history-list,
+    #all-list {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #search-container,
+    #list-container,
+    #palace-image-container,
+    #search-nav,
+    #scroller {
+        max-width: 150px;
+    }
+
+    .list-items {
+        padding: 10px 0 3px 3px;
+    }
+
+    #palace-image {
+        max-width: 150px;
+    }
+
+    h1 {
+        font-size: 12px;
+    }
+
+    #list-button,
+    #history-list,
+    #non-history-list,
+    #all-list {
+        font-size: 15px;
+    }
+}
